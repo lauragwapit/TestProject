@@ -1,22 +1,30 @@
 .App {
   text-align: center;
+  background-color: #515A5A;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.Titre{
+  color: #515A5A;
+  font-size: 40px;
+  text-align: center;
+  background-color: coral;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.Photo {
+  width: 300px;
+  border-color: black;
+  margin-top: 20px;
+
+}
+
+.Header {
+  display: inline-block;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -30,3 +38,67 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+h1{
+  text-align:center;
+}
+header{
+  text-align :center;
+}
+.Profil{
+  color:black;
+  font-size: 15px;
+  width: 200px;
+  padding: 15px;
+  margin: 5px;
+  background-color: coral;
+  border-color: black;
+}
+
+.PP{
+  border-color: black;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+.Bouton{
+
+  color: coral;
+  background-color: black;
+  border-color: coral;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
